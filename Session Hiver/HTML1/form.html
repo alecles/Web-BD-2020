@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS.css">
+    <title>Formulaire</title>
+</head>
+<body background = "lugu.jpg">
+<header>
+    <a style="color:black;" href = "index.html">Accueil</a>
+    <a style = "color:black;" href ="https://enligne.cegepjonquiere.ca/ColNet/login.asp?_ga=2.16918397.55097182.1579616307-1131275170.1579616307">Connexion</a>
+</header>
+
+<form action="index.html" method = "post">
+    <label>Prénom :</label>
+    <input type="text" name="prenom"><br>
+
+    <label>Nom :</label>
+    <input type="text" name="nom"><br>
+
+    <label>Date de naissance :</label>
+    <input type="date" name="naissance"><br>
+
+    <label>Adresse Courriel :</label>
+    <input type="email" name="adresse"><br>
+
+    <label>Téléphone :</label>
+    <input type="tel" name="telephone"><br>
+
+    <label>Adresse de livraison :</label>
+    <input type="text" name="livraison"><br>
+
+    <label>Rôle :</label><br>
+    <input type="radio" name="role" value="adc" checked> Attack Damage Carry
+    <input type="radio" name="role" value="bruiser" checked> Bruiser
+    <input type="radio" name="role" value="mage" checked> Mage
+    <input type="radio" name="role" value="assassin" checked> Assassin<br>
+
+    <label>Lane :</label>
+    <select name="lane">
+        <option value="top">Top</option>
+        <option value="jg">Jungle</option>
+        <option value="mid">Middle</option>
+        <option value="bot">Bottom</option>
+    </select><br>
+
+    <label>Matchmaking :</label><br>
+    <input type="checkbox" name="rank" value="bronze" checked> Bronze<br>
+    <input type="checkbox" name="rank" value="silver" checked> Silver<br>
+    <input type="checkbox" name="rank" value="gold" checked> Gold<br>
+    <input type="checkbox" name="rank" value="platinum" checked> Platinum<br>
+
+    <input type="submit" value="Rechercher une partie">
+</form>
+
+
+<footer>
+    <div>
+        <span id = "gauche">Fait par Alec Lespérance</span>
+        <span id = "centre">Contactez nous : lesal1831648@etu.cegepjonquiere.ca</span>
+        <span id = "droite">LESA72090100</span>
+    </div>
+</footer>
+</body>
+</html>

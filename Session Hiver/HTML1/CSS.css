@@ -1,0 +1,80 @@
+header{
+    text-align: left;
+    background-color: aqua;
+    position: relative;
+    border: 3px solid black;
+    width: 3.5%;
+    height: 20%;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+}
+
+
+#menu{
+    border: 3px solid black;
+    width: 19.5%;
+    height: 58.2%;
+    position: absolute;
+    top:21%;
+}
+
+#corps{
+    border: 3px solid black;
+    width: 79.3%;
+    height: 58.2%;
+    position: absolute;
+    left:20%;
+    top:21%;
+}
+
+#gauche{
+    float: left;
+}
+
+#centre{
+
+ }
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#droite {
+      float: right;
+  }
+
+form{
+    text-align: center;
+    color: red;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #6975;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    background-color: aqua;
+    border: 3px solid black;
+    position: absolute;
+    width: 99%;
+    height: 10%;
+    top:90%;
+    right: 7px;
+}
