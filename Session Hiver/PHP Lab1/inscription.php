@@ -3,19 +3,19 @@
 
 
 <head>
-<meta charset="UTF-8">
-<title>Formulaire</title>
-<link rel = "stylesheet" href = "CSS.css">
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link rel = "stylesheet" href = "CSS.css">
 </head>
 
 <body>
 
 <header>
     <h1> AIR CANADA </h1>
-    <a href = "index.php">Accueil</a> <a href = "inscription.php">S'inscrire</a>
+    <a href = "index.php">Accueil</a> <a href = "form.php">Se connecter</a>
 </header>
 
-<h1>Connectez-vous</h1>
+<h1>Incrivez-vous</h1>
 <form action="index.php" method = "post">
     <label>Nom utilisateur :</label>
     <input type="text" name="utilisateur"><br>
@@ -23,9 +23,8 @@
     <label>Mot de passe :</label>
     <input type="password" name="password"><br>
 
-   <input type="submit" value="Envoyer">
-   <input type="button" value="Inscription">
-   </form>
+    <input type="submit" value="Envoyer">
+</form>
 
 <footer>
     <p>Fait par Alec Lespérance</p>
