@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<liens>
+    <lien>
+        <Fr>Voyage</Fr>
+        <En>Trip</En>
+        <Url>https://chrome.google.com/webstore/category/extensions?hl=fr</Url>
+    </lien>
+    <lien>
+        <Fr>Prix</Fr>
+        <En>Price</En>
+        <Url>https://chrome.google.com/webstore/category/extensions?hl=fr</Url>
+    </lien>
+    <lien>
+        <Fr>Amusez-vous!</Fr>
+        <En>Have fun!</En>
+        <Url>https://chrome.google.com/webstore/category/extensions?hl=fr</Url>
+    </lien>
+</liens>

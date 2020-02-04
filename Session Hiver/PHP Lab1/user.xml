@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<utilisateurs>
+    <utilisateur>
+        <Username>John46</Username>
+        <Prenom>Martin</Prenom>
+        <Courriel>allo1@gmail.com</Courriel>
+        <Password>Allo1</Password>
+    </utilisateur>
+    <utilisateur>
+        <Username>Paul64</Username>
+        <Prenom>Jesus</Prenom>
+        <Courriel>allo2@gmail.com</Courriel>
+        <Password>Allo2</Password>
+    </utilisateur>
+    <utilisateur>
+        <Username>Michelle24</Username>
+        <Prenom>Joseph</Prenom>
+        <Courriel>allo3@gmail.com</Courriel>
+        <Password>Allo3</Password>
+    </utilisateur>
+</utilisateurs>
