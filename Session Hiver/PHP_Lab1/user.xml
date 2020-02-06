@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<utilisateurs>
+    <utilisateur>
+        <Username>Alec54</Username>
+        <Prenom>Alec</Prenom>
+        <Nom>Lespérance</Nom>
+        <Courriel>Alec1@gmail.com</Courriel>
+        <Password>Alec1</Password>
+    </utilisateur>
+    <utilisateur>
+        <Username>Jerome69</Username>
+        <Prenom>Jerome</Prenom>
+        <Nom>Bouchard</Nom>
+        <Courriel>Jerome69@gmail.com</Courriel>
+        <Password>Jerome69</Password>
+    </utilisateur>
+    <utilisateur>
+        <Username>Nico</Username>
+        <Prenom>Nicolas</Prenom>
+        <Nom>Côté</Nom>
+        <Courriel>Nico@gmail.com</Courriel>
+        <Password>Nico</Password>
+    </utilisateur>
+</utilisateurs>
