@@ -1,7 +1,8 @@
 <?php
 session_start();
-$_SESSION["username"];
-$_SESSION["password"];
+$_SESSION["Username"];
+$_SESSION["Courriel"];
+$_SESSION["Password"];
 $_SESSION["Prenom"];
 $_SESSION["Nom"];
 
@@ -12,7 +13,7 @@ $verif = "Bonjour";
 
 $xml = simplexml_load_file("user.xml") or die();
 
-if(isset($_SESSION["username"])==false)
+if(isset($_SESSION["Username"])==false)
 {
     if(isset($_POST["username"]))
     {
@@ -34,7 +35,7 @@ if(isset($_SESSION["username"])==false)
     }
     else
         {
-        header('Location:http://localhost/PHP_Lab1/connexion.php');
+        header("Location: connexion.php");
         exit();
     }
 }
@@ -71,23 +72,25 @@ include "header.php";
     {
         echo $user->Username."<br/>";
         echo $user->Prenom."<br/>";
+        echo $user->Nom."<br/>";
         echo $user->Courriel."<br/>";
         echo $user->Password."<br/>";
         echo "<br/><br/><br/>";
 
     }
-    echo $_POST['utilisateur'];
+    echo $_POST['username'];
     echo "<br/>";
     echo $_POST['password'];
+    echo "<br/>";
+    echo $_POST['langue'];
 
     ?>
 </section>
 
-<footer>
     <?php
     include "footer.php";
     ?>
-</footer>
+
 
 </body>
 

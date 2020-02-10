@@ -6,6 +6,9 @@
 
     <label>Mot de passe :</label>
     <input type="password" name="password"><br>
+    <label>Langue :</label>
+    <input type="radio" name="langue" value="fr" checked> Français
+    <input type="radio" name="langue" value="en" checked> English
 
     <input type="submit" value="Envoyer">
     <input type="button" value="Inscription">
