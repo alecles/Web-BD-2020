@@ -6,6 +6,11 @@ $_SESSION["Password"];
 $_SESSION["Prenom"];
 $_SESSION["Nom"];
 
+$cookie_name = "langue";
+$cookie_value = $_POST["langue"];
+setcookie($cookie_name, $cookie_value, time() + (86400 * 7), "/"); // 86400 = 1 day
+
+
 $servername = "localhost";
 $username = "root";
 $password = "mysql";
